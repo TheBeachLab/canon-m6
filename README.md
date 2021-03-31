@@ -33,6 +33,8 @@ end sub
 ```
 
 - Step 9: Unmount the card `sudo umount /mnt`
-- Step 10: Place the SD card back in the camera and switch the camera ON **while pressing SET**. The script should have been executed and you should have clean overlay and the display should stay on indefinitely.
+- Step 10: Place the SD card back in the camera and switch the camera ON. If you see `No memory card` switch the camera OFF and back ON **while pressing SET**. After switching ON the camera, enter playback mode and press SET. If the card is correctly prepared, that should cause the script to execute. Go back to shooting mode and check whether the overlay is there. If you see no overlay, the script has successfully run. The script should have been executed and you should have clean overlay and the display should stay ON indefinitely.
+
+> NOTE: You have to execute step 10 **every time** you switch ON the camera!
 
 Information obtained from <https://chdk.setepontos.com/index.php?topic=13489.0>
